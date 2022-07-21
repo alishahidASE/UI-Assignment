@@ -1,0 +1,52 @@
+.p-1 {
+  padding-top: 5%;
+  color: #4169E1;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.h1-1 {
+  color: black;
+  font-family: Poppins;
+  font-size: 90px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 2px 0 black;
+}
+
+.p-2 {
+  color: #666362;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.btn-primary {
+  font-size: larger;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  background-color: #4169E1;
+
+}
+
+.appointment {
+  padding-bottom: 0px;
+  padding-left: 120px;
+}
+
+@media only screen and (max-width:600px) {
+  .h1-1 {
+    font-size: 45px;
+  }
+
+  .appointment {
+    padding-left: 0;
+  }
+
+  .btn-app {
+    margin-bottom: 25px;
+  }
+
+}

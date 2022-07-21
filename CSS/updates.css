@@ -1,0 +1,53 @@
+.red-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: red;
+}
+
+.images-updates {
+  height: 300px;
+  width: 400px;
+}
+
+.r1-updates {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.updates {
+  padding-bottom: 150px;
+}
+
+.p1-updates {
+  color: #8d8988;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width:600px) {
+  .updates-col {
+    padding-top: 100px;
+  }
+
+  .images-updates {
+    padding-top: 25px;
+    height: 250px;
+    width: 400px;
+  }
+
+  .p-updates {
+    text-align: left;
+  }
+
+  .r1-updates {
+    padding: 0;
+  }
+
+  br {
+    display: none;
+  }
+
+  .p1-updates {
+    text-align: left;
+  }
+}

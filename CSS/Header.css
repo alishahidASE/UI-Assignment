@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Poppins;
+  src: url('https://fonts.googleapis.com/css?family=Poppins');
+}
+
+@media only screen and (max-width:600px) {
+  header {
+    display: none;
+  }
+
+}
+
+
+header {
+  background-color: #4169E1;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.phone {
+  position: absolute;
+  left: 15%;
+}
+
+.fa-phone-h {
+  transform: rotateY(180deg);
+  padding-left: 15%;
+  color: white;
+}
+
+.email {
+  position: absolute;
+  left: 40%;
+}
+
+.headrow {
+  padding-top: 10px;
+}
+
+.line {
+  border-left: 1px solid lightskyblue;
+  color: white;
+  height: 25px;
+}
+
+.signing {
+  position: absolute;
+  left: 75%;
+}
+
+.signup {
+  position: relative;
+  left: 10%;
+}
+
+.signin {
+  position: absolute;
+  right: 48%;
+}

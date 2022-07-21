@@ -1,0 +1,141 @@
+.bg-facts {
+  background-image: url("/Resource/Images/xbg_3.png");
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.table-mobile {
+  display: none;
+}
+
+.layer-docs {
+  background-color: rgba(65, 105, 225, 0.8);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.table {
+  border-top: none;
+  padding-left: 10%;
+  margin-bottom: 10%;
+}
+
+.table td {
+  border-left: 1px solid transparent;
+  border-right: 1px solid white;
+}
+
+.table td:first-child {
+  border-left: none;
+  border-top: none;
+  border-bottom: 1px solid white;
+}
+
+
+.table td:last-child {
+  border-right: none;
+}
+
+.col1-facts {
+  padding-left: 10%;
+  margin-bottom: 10%;
+}
+
+.col2-facts {
+  padding-top: 8%;
+  padding-right: 20%;
+}
+
+.h3-facts {
+  margin-left: 6%;
+  padding-top: 20%;
+  margin-bottom: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  ;
+}
+
+.h1-facts {
+  margin-bottom: 30px;
+  margin-left: 6%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 2px white;
+}
+
+.btn-facts {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: large;
+  border-radius: 45px;
+}
+
+.h-facts {
+  color: white;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 2px white;
+}
+
+.p-facts {
+  color: white;
+  font-weight: bold;
+}
+
+.mob-table {
+
+  display: none;
+
+}
+
+@media only screen and (max-width:600px) {
+  .ava-con {
+    padding-bottom: 100px;
+    display: none;
+  }
+
+  .table {
+    display: none;
+  }
+
+  .mob-table {
+    display: block;
+    width: 100%;
+    margin-left: 10%;
+    padding-bottom: 100px;
+  }
+
+  .mob-table td {
+    border-bottom: 1px solid white;
+  }
+
+  .h1-facts {
+    font-size: 20px;
+  }
+
+  .btn-facts {
+    width: 100%;
+  }
+
+  br {
+    display: none;
+  }
+
+
+}
